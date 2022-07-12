@@ -9,7 +9,7 @@ Docker Engine is a terminal
 
 Docker Desktop is an easy-to-install application for your Mac or Windows environment that enables you to build and share containerized applications and microservices. It is available for MacOS, Windows and Linux (deb package for Debian/Ubuntu and rpm package for Fedora/Red Hat).
 
-You can also use (Play with Docker)[https://labs.play-with-docker.com/] to learn Docker in an online environment.
+You can also use [Play with Docker](https://labs.play-with-docker.com/) to learn Docker in an online environment.
 
 Docker Engine
 
@@ -28,13 +28,13 @@ A container is defined by its image as well as any configuration options you pro
 
 Installation
 
-Links to install Docker Desktop and Docker Engine can be found at: (Docker Installation Links)[https://docs.docker.com/engine/install/]
+Links to install Docker Desktop and Docker Engine can be found at: [Docker Installation Links](https://docs.docker.com/engine/install/)
 
 You can install Docker Engine on Linux using the instructions at the following links:
 
-[Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
-[Fedora](https://docs.docker.com/engine/install/fedora/)
-[CentOS](https://docs.docker.com/engine/install/centos/)
+- [Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+- [Fedora](https://docs.docker.com/engine/install/fedora/)
+- [CentOS](https://docs.docker.com/engine/install/centos/)
 
 ## Test
 Dockerfile
@@ -52,6 +52,5 @@ docker image rm test
 ```
 ## Resources
 
-https://docs.docker.com/get-started/overview/
-
-https://docs.docker.com/get-docker/
+- [Docker Overview](https://docs.docker.com/get-started/overview/)
+- [Get Docker](https://docs.docker.com/get-docker/)
