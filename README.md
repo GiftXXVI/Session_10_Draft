@@ -5,13 +5,25 @@ Docker is an open platform for developing, shipping, and running applications.
 
 Docker provides the ability to package and run an application in a container.
 
-Docker Engine is a terminal 
+## Docker Engine
 
-Docker Desktop is an easy-to-install application for your Mac or Windows environment that enables you to build and share containerized applications and microservices. It is available for MacOS, Windows and Linux (deb package for Debian/Ubuntu and rpm package for Fedora/Red Hat).
+Docker Engine acts as a client-server application for building containers that can be accessed from the Terminal. 
+
+It has the following components:
+
+- A server with a long-running daemon process `dockerd`.
+- APIs which specify interfaces that programs can use to talk to and instruct the Docker daemon.
+- A command line interface (CLI) client `docker`.
+
+## Docker Desktop
+
+Docker Desktop is an easy-to-install application with a Graphical User Interface (GUI). 
+It includes the Docker Engine and an easy to use GUI.
+It is available for MacOS, Windows and Linux (deb package for Debian/Ubuntu and rpm package for Fedora/Red Hat).
+
+## Docker Playground
 
 You can also use [Play with Docker](https://labs.play-with-docker.com/) to learn Docker in an online environment.
-
-Docker Engine
 
 ## Docker Images
 An image is a read-only template with instructions for creating a Docker container.
@@ -26,7 +38,7 @@ From there you are able to create containers from your image. A container is a r
 
 A container is defined by its image as well as any configuration options you provide to it when you create or start it.
 
-Installation
+## Installation
 
 Links to install Docker Desktop and Docker Engine can be found at: [Docker Installation Links](https://docs.docker.com/engine/install/)
 
