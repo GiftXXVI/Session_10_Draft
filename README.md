@@ -64,5 +64,4 @@ docker image rm test
 ```
 ## Resources
 
-- [Docker Overview](https://docs.docker.com/get-started/overview/)
-- [Get Docker](https://docs.docker.com/get-docker/)
+- [Docker Documentation](https://docs.docker.com/get-started/overview/)
