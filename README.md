@@ -26,15 +26,29 @@ From there you are able to create containers from your image. A container is a r
 
 A container is defined by its image as well as any configuration options you provide to it when you create or start it.
 
+Installation
+
+Links to install Docker Desktop and Docker Engine can be found at: (Docker Installation Links)[https://docs.docker.com/engine/install/]
+
+You can install Docker Engine on Linux using the instructions at the following links:
+
+(Ubuntu)[https://docs.docker.com/engine/install/ubuntu/]
+(Fedora)[https://docs.docker.com/engine/install/fedora/]
+(CentOS)[https://docs.docker.com/engine/install/centos/]
+
 ## Test
 Dockerfile
 ```docker
 FROM alpine
-CMD ["echo", "Running Container!!"]
+CMD ["echo", "Testing Docker!!"]
 ```
+Build the image, create and run the container from the image:
+
 ```bash
-docker build -t hello .
-docker build -t hello .
+docker build -t test .
+docker image ls 
+docker run --rm test
+docker image rm test
 ```
 ## Resources
 
