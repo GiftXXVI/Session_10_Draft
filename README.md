@@ -62,6 +62,34 @@ docker image ls
 docker run --rm test
 docker image rm test
 ```
+
+## Docker Hub
+
+Docker Hub is a service provided by Docker for finding and sharing container images. 
+
+It is the world’s largest repository of container images.
+
+You can create public repositories for free or choose a subscription plan for private repositories.
+
+## Docker Hub Features
+
+Docker Hub provides the following major features:
+
+Repositories: Push and pull container images.
+Teams & Organizations: Manage access to private repositories of container images.
+Docker Official Images: Pull and use high-quality container images provided by Docker.
+Docker Verified Publisher Images: Pull and use high- quality container images provided by external vendors.
+Builds: Automatically build container images from GitHub and Bitbucket and push them to Docker Hub.
+Webhooks: Trigger actions after a successful push to a repository to integrate Docker Hub with other services.
+
 ## Resources
 
 - [Docker Documentation](https://docs.docker.com/get-started/overview/)
+- [Docker Engine](https://docs.docker.com/engine/)
+- [Docker Desktop](https://docs.docker.com/desktop/)
+- [Docker Playground](https://labs.play-with-docker.com/)
+- [Docker Hub - Python](https://hub.docker.com/_/python)
+- [Docker Command Reference - image](https://docs.docker.com/engine/reference/commandline/image/)
+- [Docker Command Reference - container](https://docs.docker.com/engine/reference/commandline/container/)
+- [Docker Hub](https://docs.docker.com/docker-hub/)
+
