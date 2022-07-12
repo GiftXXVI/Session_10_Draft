@@ -9,7 +9,7 @@ Docker Engine is a terminal
 
 Docker Desktop is an easy-to-install application for your Mac or Windows environment that enables you to build and share containerized applications and microservices. It is available for MacOS, Windows and Linux (deb package for Debian/Ubuntu and rpm package for Fedora/Red Hat).
 
-You can also use [Play with Docker](https://labs.play-with-docker.com/) to learn Docker in an online environment.
+You can also use (Play with Docker)[https://labs.play-with-docker.com/] to learn Docker in an online environment.
 
 Docker Engine
 
@@ -32,9 +32,9 @@ Links to install Docker Desktop and Docker Engine can be found at: (Docker Insta
 
 You can install Docker Engine on Linux using the instructions at the following links:
 
-(Ubuntu)[https://docs.docker.com/engine/install/ubuntu/]
-(Fedora)[https://docs.docker.com/engine/install/fedora/]
-(CentOS)[https://docs.docker.com/engine/install/centos/]
+[Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+[Fedora](https://docs.docker.com/engine/install/fedora/)
+[CentOS](https://docs.docker.com/engine/install/centos/)
 
 ## Test
 Dockerfile
