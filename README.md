@@ -49,10 +49,21 @@ You can install Docker Engine on Linux using the instructions at the following l
 - [CentOS](https://docs.docker.com/engine/install/centos/)
 
 ## Test
+```bash
+touch Dockerfile
+vim Dockerfile
+[Alt + Enter]
+```
+
 Dockerfile
 ```docker
 FROM alpine
 CMD ["echo", "Testing Docker!!"]
+```
+
+```bash
+[:wq + Enter]
+cat Deockerfile
 ```
 Build the image, create and run the container from the image:
 
